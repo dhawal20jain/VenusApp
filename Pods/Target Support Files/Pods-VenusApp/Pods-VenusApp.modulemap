@@ -1,0 +1,6 @@
+framework module Pods_VenusApp {
+  umbrella header "Pods-VenusApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
