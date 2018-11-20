@@ -1,5 +1,5 @@
 //
-//  nominate.swift
+//  pickerViewController.swift
 //  VenusApp
 //
 //  Created by DEVESH MANI TRIPATHI on 20/11/18.
@@ -7,31 +7,12 @@
 //
 
 import UIKit
-import Contacts
-import ContactsUI
-class nominate: UIViewController,CNContactPickerDelegate{
 
-   
-    @IBAction func nn(_ sender: UIButton) {
-        
-    
-        
-    }
-    
-   
-    
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
+class pickerViewController: UIViewController {
 
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    @IBOutlet weak var txt_pickUpData: UITextField!
     
+
 
     /*
     // MARK: - Navigation

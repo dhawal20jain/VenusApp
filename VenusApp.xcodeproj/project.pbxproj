@@ -13,6 +13,8 @@
 		319249ED21A03D17000E5DE1 /* loginOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319249E821A03D16000E5DE1 /* loginOptions.swift */; };
 		319249EE21A03D17000E5DE1 /* Screen1_Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319249E921A03D16000E5DE1 /* Screen1_Welcome.swift */; };
 		319249F021A03EC9000E5DE1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 319249EF21A03EC9000E5DE1 /* GoogleService-Info.plist */; };
+		3198A4CA21A3FF9100F9C70F /* nominateScreen1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3198A4C921A3FF9100F9C70F /* nominateScreen1.swift */; };
+		3198A4CC21A404B400F9C70F /* nominateScreen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3198A4CB21A404B400F9C70F /* nominateScreen2.swift */; };
 		31A7FF8A21A2DB170006B589 /* ForgorPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A7FF8921A2DB160006B589 /* ForgorPassword.swift */; };
 		31CFED3621A03A8400CBFD15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CFED3521A03A8400CBFD15 /* AppDelegate.swift */; };
 		31CFED3821A03A8400CBFD15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CFED3721A03A8400CBFD15 /* ViewController.swift */; };
@@ -32,6 +34,8 @@
 		319249E821A03D16000E5DE1 /* loginOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginOptions.swift; sourceTree = "<group>"; };
 		319249E921A03D16000E5DE1 /* Screen1_Welcome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen1_Welcome.swift; sourceTree = "<group>"; };
 		319249EF21A03EC9000E5DE1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3198A4C921A3FF9100F9C70F /* nominateScreen1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nominateScreen1.swift; sourceTree = "<group>"; };
+		3198A4CB21A404B400F9C70F /* nominateScreen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nominateScreen2.swift; sourceTree = "<group>"; };
 		31A7FF8721A285C20006B589 /* VenusApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VenusApp.entitlements; sourceTree = "<group>"; };
 		31A7FF8921A2DB160006B589 /* ForgorPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgorPassword.swift; sourceTree = "<group>"; };
 		31CFED3221A03A8400CBFD15 /* VenusApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VenusApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,6 +103,8 @@
 				31A7FF8921A2DB160006B589 /* ForgorPassword.swift */,
 				31E8B16921A3D435004EAA6F /* emailSent.swift */,
 				31E8B16B21A3E6C3004EAA6F /* nominate.swift */,
+				3198A4C921A3FF9100F9C70F /* nominateScreen1.swift */,
+				3198A4CB21A404B400F9C70F /* nominateScreen2.swift */,
 			);
 			path = VenusApp;
 			sourceTree = "<group>";
@@ -293,7 +299,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3198A4CA21A3FF9100F9C70F /* nominateScreen1.swift in Sources */,
 				31E8B16A21A3D435004EAA6F /* emailSent.swift in Sources */,
+				3198A4CC21A404B400F9C70F /* nominateScreen2.swift in Sources */,
 				319249ED21A03D17000E5DE1 /* loginOptions.swift in Sources */,
 				319249EB21A03D17000E5DE1 /* loginWithEmail.swift in Sources */,
 				31CFED3E21A03A8400CBFD15 /* VenusApp.xcdatamodeld in Sources */,
