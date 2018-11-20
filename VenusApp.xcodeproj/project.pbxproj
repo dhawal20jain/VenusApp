@@ -13,12 +13,15 @@
 		319249ED21A03D17000E5DE1 /* loginOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319249E821A03D16000E5DE1 /* loginOptions.swift */; };
 		319249EE21A03D17000E5DE1 /* Screen1_Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319249E921A03D16000E5DE1 /* Screen1_Welcome.swift */; };
 		319249F021A03EC9000E5DE1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 319249EF21A03EC9000E5DE1 /* GoogleService-Info.plist */; };
+		31A7FF8A21A2DB170006B589 /* ForgorPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A7FF8921A2DB160006B589 /* ForgorPassword.swift */; };
 		31CFED3621A03A8400CBFD15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CFED3521A03A8400CBFD15 /* AppDelegate.swift */; };
 		31CFED3821A03A8400CBFD15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CFED3721A03A8400CBFD15 /* ViewController.swift */; };
 		31CFED3B21A03A8400CBFD15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31CFED3921A03A8400CBFD15 /* Main.storyboard */; };
 		31CFED3E21A03A8400CBFD15 /* VenusApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 31CFED3C21A03A8400CBFD15 /* VenusApp.xcdatamodeld */; };
 		31CFED4021A03A8500CBFD15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31CFED3F21A03A8500CBFD15 /* Assets.xcassets */; };
 		31CFED4321A03A8500CBFD15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31CFED4121A03A8500CBFD15 /* LaunchScreen.storyboard */; };
+		31E8B16A21A3D435004EAA6F /* emailSent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E8B16921A3D435004EAA6F /* emailSent.swift */; };
+		31E8B16C21A3E6C3004EAA6F /* nominate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E8B16B21A3E6C3004EAA6F /* nominate.swift */; };
 		8CE2A1E99AE4B0A956AD51D6 /* Pods_VenusApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78F560B64AB095DC06B27554 /* Pods_VenusApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +33,7 @@
 		319249E921A03D16000E5DE1 /* Screen1_Welcome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen1_Welcome.swift; sourceTree = "<group>"; };
 		319249EF21A03EC9000E5DE1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		31A7FF8721A285C20006B589 /* VenusApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VenusApp.entitlements; sourceTree = "<group>"; };
+		31A7FF8921A2DB160006B589 /* ForgorPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgorPassword.swift; sourceTree = "<group>"; };
 		31CFED3221A03A8400CBFD15 /* VenusApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VenusApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31CFED3521A03A8400CBFD15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31CFED3721A03A8400CBFD15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +42,8 @@
 		31CFED3F21A03A8500CBFD15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31CFED4221A03A8500CBFD15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31CFED4421A03A8500CBFD15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31E8B16921A3D435004EAA6F /* emailSent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emailSent.swift; sourceTree = "<group>"; };
+		31E8B16B21A3E6C3004EAA6F /* nominate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nominate.swift; sourceTree = "<group>"; };
 		412977AFE9D3780E4EBECD26 /* Pods-VenusApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VenusApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VenusApp/Pods-VenusApp.debug.xcconfig"; sourceTree = "<group>"; };
 		78F560B64AB095DC06B27554 /* Pods_VenusApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VenusApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD19B0E23DA547DEC4E67A84 /* Pods-VenusApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VenusApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-VenusApp/Pods-VenusApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -90,6 +96,9 @@
 				31CFED4121A03A8500CBFD15 /* LaunchScreen.storyboard */,
 				31CFED4421A03A8500CBFD15 /* Info.plist */,
 				31CFED3C21A03A8400CBFD15 /* VenusApp.xcdatamodeld */,
+				31A7FF8921A2DB160006B589 /* ForgorPassword.swift */,
+				31E8B16921A3D435004EAA6F /* emailSent.swift */,
+				31E8B16B21A3E6C3004EAA6F /* nominate.swift */,
 			);
 			path = VenusApp;
 			sourceTree = "<group>";
@@ -284,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31E8B16A21A3D435004EAA6F /* emailSent.swift in Sources */,
 				319249ED21A03D17000E5DE1 /* loginOptions.swift in Sources */,
 				319249EB21A03D17000E5DE1 /* loginWithEmail.swift in Sources */,
 				31CFED3E21A03A8400CBFD15 /* VenusApp.xcdatamodeld in Sources */,
@@ -291,6 +301,8 @@
 				319249EE21A03D17000E5DE1 /* Screen1_Welcome.swift in Sources */,
 				319249EC21A03D17000E5DE1 /* signin.swift in Sources */,
 				319249EA21A03D17000E5DE1 /* SignUpWithEmail.swift in Sources */,
+				31A7FF8A21A2DB170006B589 /* ForgorPassword.swift in Sources */,
+				31E8B16C21A3E6C3004EAA6F /* nominate.swift in Sources */,
 				31CFED3621A03A8400CBFD15 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

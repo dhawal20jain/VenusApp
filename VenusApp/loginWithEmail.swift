@@ -51,6 +51,12 @@ class loginWithEmail: UIViewController {
     
     
     
+    @IBAction func forgotPassword(_ sender: UIButton) {
+        
+        let vc = storyboard?.instantiateViewController(withIdentifier: "ForgotPassword") as! ForgorPassword
+        
+self.present(vc, animated: true, completion: nil)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

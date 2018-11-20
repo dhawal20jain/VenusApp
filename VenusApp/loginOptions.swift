@@ -105,42 +105,45 @@ class loginOptions: UIViewController,GIDSignInDelegate,GIDSignInUIDelegate,FBSDK
     }
     
     
-    fileprivate func loginWithTwitter()
-    {
-        let twitter = TWTRLogInButton { (session, error) in
-            if let err = error
-            {
-                print("Error logging in twitter",err)
-                return
-                
-            }
-            
-            print("Login done")
-            
-            guard let token = session?.authToken else {return}
-            guard let secret = session?.authTokenSecret else {return }
-            
-            
-            let cred = TwitterAuthProvider.credential(withToken: token, secret: secret)
-            
-            Auth.auth().signIn(with: cred, completion: { (user, error) in
-                if let error = error{
-                    print("error in twitter for firebase",error)
-                }
-                
-                print("successfully twitter  using firebase",user?.uid)
-            })
-        }
-        
-    }
+//    fileprivate func loginWithTwitter()
+//    {
+//        let twitter = TWTRLogInButton { (session, error) in
+//            if let err = error
+//            {
+//                print("Error logging in twitter",err)
+//                return
+//
+//            }
+//
+//            print("Login done")
+//
+//            guard let token = session?.authToken else {return}
+//            guard let secret = session?.authTokenSecret else {return }
+//
+//
+//            let cred = TwitterAuthProvider.credential(withToken: token, secret: secret)
+//
+//            Auth.auth().signIn(with: cred, completion: { (user, error) in
+//                if let error = error{
+//                    print("error in twitter for firebase",error)
+//                }
+//
+//                print("successfully twitter  using firebase",user?.uid)
+//            })
+//        }
+//
+//    }
+    
+    
+    
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
-        let twitter = TWTRLogInButton(frame: CGRect(x: 100, y: 100, width: 50, height: 30))
-    self.view.addSubview(twitter)
+//
+//        let twitter = TWTRLogInButton(frame: CGRect(x: 100, y: 100, width: 50, height: 30))
+//    self.view.addSubview(twitter)
         
  GIDSignIn.sharedInstance().uiDelegate = self
         

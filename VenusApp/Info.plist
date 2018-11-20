@@ -19,21 +19,20 @@
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
-            <key>Fabric</key>
-            <dict>
-                <key>APIKey</key>
-                <string>2fb8c0954e05e66f9966f514ecc2fe38bb8739fd</string>
-                <key>Kits</key>
-                <array>
-                    <dict>
-                        <key>KitInfo</key>
-                        <dict/>
-                        <key>KitName</key>
-                        <string>Twitter</string>
-                    </dict>
-                </array>
-            </dict>
-            
+			<key>Fabric</key>
+			<dict>
+				<key>APIKey</key>
+				<string>2fb8c0954e05e66f9966f514ecc2fe38bb8739fd</string>
+				<key>Kits</key>
+				<array>
+					<dict>
+						<key>KitInfo</key>
+						<dict/>
+						<key>KitName</key>
+						<string>Twitter</string>
+					</dict>
+				</array>
+			</dict>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
@@ -73,6 +72,8 @@
 	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSContactsUsageDescription</key>
+	<string>Need to access Contact.</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
