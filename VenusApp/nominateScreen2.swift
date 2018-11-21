@@ -8,11 +8,39 @@
 
 import UIKit
 
-class nominateScreen2: UIViewController,UIPickerViewDelegate, UIPickerViewDataSource {
+class nominateScreen2: UIViewController,UIPickerViewDelegate, UIPickerViewDataSource,getcategories {
+ 
+    
+    
+    func categories(data: [String]) {
+        var elements: String = ""
+        for items in data {
+            elements.append("\(items)\n")
+        }
+        categoriesLabel.text = elements
+        
+        
+    }
+    
     
     var myPickerView : UIPickerView!
     
     @IBOutlet weak var regionname: UILabel!
+    
+    @IBAction func chooseNow(_ sender: UIButton) {
+
+        
+        let vc = storyboard?.instantiateViewController(withIdentifier: "categories") as! categories
+       
+       
+          vc.delegate = self
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    
+    
+    
+    @IBOutlet weak var categoriesLabel: UILabel!
     
     var states = ["Andhra Pradesh(Hyderabad)","Arunachal Pradesh(Itanagar)",
         "Assam(Dispur)",
@@ -51,7 +79,7 @@ class nominateScreen2: UIViewController,UIPickerViewDelegate, UIPickerViewDataSo
     func pickUp(){
         
         // UIPickerView
-        self.myPickerView = UIPickerView(frame:CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: 216))
+        self.myPickerView = UIPickerView(frame:CGRect(x: 0, y: 250, width: self.view.frame.size.width, height: 216))
         self.myPickerView.delegate = self
         self.myPickerView.dataSource = self
         self.myPickerView.backgroundColor = UIColor.white
@@ -67,7 +95,8 @@ class nominateScreen2: UIViewController,UIPickerViewDelegate, UIPickerViewDataSo
         let doneButton = UIBarButtonItem(title: "Done", style: .plain, target: self, action: #selector(doneClick))
         let spaceButton = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil)
         let cancelButton = UIBarButtonItem(title: "Cancel", style: .plain, target: self, action: #selector(cancelClick))
-        toolBar.setItems([cancelButton, spaceButton, doneButton], animated: false)
+        
+        toolBar.setItems([cancelButton, spaceButton, doneButton], animated: true)
         toolBar.isUserInteractionEnabled = true
    
     self.view.addSubview(myPickerView)
@@ -89,10 +118,10 @@ class nominateScreen2: UIViewController,UIPickerViewDelegate, UIPickerViewDataSo
 
     
     @objc func doneClick() {
-        regionname.isFirstResponder
+       // regionname.isFirstResponder
     }
     @objc func cancelClick() {
-regionname.isFirstResponder
+//regionname.isFirstResponder
         
     }
     
@@ -106,6 +135,8 @@ regionname.isFirstResponder
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
+        navigationController?.isToolbarHidden = false
     
         // Do any additional setup after loading the view.
     }
@@ -114,6 +145,8 @@ regionname.isFirstResponder
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+   
     
 
     /*

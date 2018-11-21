@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3129259421A522D500B2ED7A /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3129259321A522D500B2ED7A /* RoundedButton.swift */; };
+		3129259621A53F7B00B2ED7A /* categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3129259521A53F7B00B2ED7A /* categories.swift */; };
 		319249EA21A03D17000E5DE1 /* SignUpWithEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319249E521A03D15000E5DE1 /* SignUpWithEmail.swift */; };
 		319249EB21A03D17000E5DE1 /* loginWithEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319249E621A03D15000E5DE1 /* loginWithEmail.swift */; };
 		319249EC21A03D17000E5DE1 /* signin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319249E721A03D16000E5DE1 /* signin.swift */; };
@@ -28,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3129259321A522D500B2ED7A /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		3129259521A53F7B00B2ED7A /* categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categories.swift; sourceTree = "<group>"; };
 		319249E521A03D15000E5DE1 /* SignUpWithEmail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpWithEmail.swift; sourceTree = "<group>"; };
 		319249E621A03D15000E5DE1 /* loginWithEmail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginWithEmail.swift; sourceTree = "<group>"; };
 		319249E721A03D16000E5DE1 /* signin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signin.swift; sourceTree = "<group>"; };
@@ -105,6 +109,8 @@
 				31E8B16B21A3E6C3004EAA6F /* nominate.swift */,
 				3198A4C921A3FF9100F9C70F /* nominateScreen1.swift */,
 				3198A4CB21A404B400F9C70F /* nominateScreen2.swift */,
+				3129259321A522D500B2ED7A /* RoundedButton.swift */,
+				3129259521A53F7B00B2ED7A /* categories.swift */,
 			);
 			path = VenusApp;
 			sourceTree = "<group>";
@@ -310,6 +316,8 @@
 				319249EC21A03D17000E5DE1 /* signin.swift in Sources */,
 				319249EA21A03D17000E5DE1 /* SignUpWithEmail.swift in Sources */,
 				31A7FF8A21A2DB170006B589 /* ForgorPassword.swift in Sources */,
+				3129259421A522D500B2ED7A /* RoundedButton.swift in Sources */,
+				3129259621A53F7B00B2ED7A /* categories.swift in Sources */,
 				31E8B16C21A3E6C3004EAA6F /* nominate.swift in Sources */,
 				31CFED3621A03A8400CBFD15 /* AppDelegate.swift in Sources */,
 			);

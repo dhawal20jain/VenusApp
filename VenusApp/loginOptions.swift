@@ -74,11 +74,11 @@ class loginOptions: UIViewController,GIDSignInDelegate,GIDSignInUIDelegate,FBSDK
     {
         FBSDKLoginManager().logIn(withReadPermissions: ["email","public_profile"], from: self) { (result, error) in
             if error != nil{
-                print("fblogin failed",error)
+                print("fblogin failed",error ?? "")
                 
             }
+            print(result!.token.tokenString ?? "")
             
-            print(result?.token.tokenString)
     }
         fbfir()
     }
@@ -140,7 +140,11 @@ class loginOptions: UIViewController,GIDSignInDelegate,GIDSignInUIDelegate,FBSDK
     
     override func viewDidLoad() {
         super.viewDidLoad()
+  
         
+        
+        self.navigationController?.isNavigationBarHidden = false
+
 //
 //        let twitter = TWTRLogInButton(frame: CGRect(x: 100, y: 100, width: 50, height: 30))
 //    self.view.addSubview(twitter)

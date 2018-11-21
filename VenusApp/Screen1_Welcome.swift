@@ -15,19 +15,31 @@ class Screen1_Welcome: UIViewController {
     @IBOutlet weak var nominate_Someone: UIButton!
     
     @IBAction func logIn(_ sender: Any) {
-        
+
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "loginOptions") as! loginOptions
-        
+
         self.navigationController?.pushViewController(vc, animated: true)
+        
+
+    }
+
+    
+    
+    @IBAction func nominateSomeone(_ sender: UIButton) {
+        
+        
+        let vc = storyboard?.instantiateViewController(withIdentifier: "nominateScreen2") as! nominateScreen2
+        
+        navigationController?.pushViewController(vc, animated: true)
         
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.navigationController?.isNavigationBarHidden = false
         
-        nominate_Someone.layer.cornerRadius = 20
-        applyForAnAward.layer.cornerRadius = 20
+        
         // Do any additional setup after loading the view.
     }
 
