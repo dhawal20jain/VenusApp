@@ -18,6 +18,7 @@
 		3198A4CA21A3FF9100F9C70F /* nominateScreen1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3198A4C921A3FF9100F9C70F /* nominateScreen1.swift */; };
 		3198A4CC21A404B400F9C70F /* nominateScreen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3198A4CB21A404B400F9C70F /* nominateScreen2.swift */; };
 		31A7FF8A21A2DB170006B589 /* ForgorPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A7FF8921A2DB160006B589 /* ForgorPassword.swift */; };
+		31AE2DF121A6A98800DF8781 /* speechRecognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AE2DF021A6A98800DF8781 /* speechRecognition.swift */; };
 		31CFED3621A03A8400CBFD15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CFED3521A03A8400CBFD15 /* AppDelegate.swift */; };
 		31CFED3821A03A8400CBFD15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CFED3721A03A8400CBFD15 /* ViewController.swift */; };
 		31CFED3B21A03A8400CBFD15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31CFED3921A03A8400CBFD15 /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 		3198A4CB21A404B400F9C70F /* nominateScreen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nominateScreen2.swift; sourceTree = "<group>"; };
 		31A7FF8721A285C20006B589 /* VenusApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VenusApp.entitlements; sourceTree = "<group>"; };
 		31A7FF8921A2DB160006B589 /* ForgorPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgorPassword.swift; sourceTree = "<group>"; };
+		31AE2DF021A6A98800DF8781 /* speechRecognition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = speechRecognition.swift; sourceTree = "<group>"; };
 		31CFED3221A03A8400CBFD15 /* VenusApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VenusApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31CFED3521A03A8400CBFD15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31CFED3721A03A8400CBFD15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				3198A4CB21A404B400F9C70F /* nominateScreen2.swift */,
 				3129259321A522D500B2ED7A /* RoundedButton.swift */,
 				3129259521A53F7B00B2ED7A /* categories.swift */,
+				31AE2DF021A6A98800DF8781 /* speechRecognition.swift */,
 			);
 			path = VenusApp;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				319249EC21A03D17000E5DE1 /* signin.swift in Sources */,
 				319249EA21A03D17000E5DE1 /* SignUpWithEmail.swift in Sources */,
 				31A7FF8A21A2DB170006B589 /* ForgorPassword.swift in Sources */,
+				31AE2DF121A6A98800DF8781 /* speechRecognition.swift in Sources */,
 				3129259421A522D500B2ED7A /* RoundedButton.swift in Sources */,
 				3129259621A53F7B00B2ED7A /* categories.swift in Sources */,
 				31E8B16C21A3E6C3004EAA6F /* nominate.swift in Sources */,
