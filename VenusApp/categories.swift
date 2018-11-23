@@ -13,8 +13,6 @@ protocol getcategories {
 
 }
 
-
-
 class categories: UIViewController,UITableViewDelegate
 ,UITableViewDataSource{
     
