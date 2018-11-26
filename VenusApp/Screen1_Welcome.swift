@@ -36,7 +36,7 @@ class Screen1_Welcome: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.navigationController?.navigationBar.tintColor = #colorLiteral(red: 0.9999126792, green: 1, blue: 0.9998814464, alpha: 1)
         self.navigationController?.isNavigationBarHidden = false
         
         

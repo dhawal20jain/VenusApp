@@ -36,7 +36,7 @@ class loginOptions: UIViewController,GIDSignInDelegate,GIDSignInUIDelegate,FBSDK
     
     func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error?) {
         // ...
-        if let error = error {
+        if error != nil {
             // ...
             return
         }
@@ -102,6 +102,14 @@ class loginOptions: UIViewController,GIDSignInDelegate,GIDSignInUIDelegate,FBSDK
         print("Successful",user ?? "")
     }
     
+    }
+    
+    
+    @IBAction func cancel(_ sender: UIButton) {
+
+        self.navigationController?.popToRootViewController(animated: true)
+        
+        
     }
     
     

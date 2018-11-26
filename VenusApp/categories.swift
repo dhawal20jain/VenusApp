@@ -70,7 +70,7 @@ class categories: UIViewController,UITableViewDelegate
         }
         
         if let sr = tableView.indexPathsForSelectedRows {
-            print("didDeselectRowAtIndexPath selected rows:\(sr)")
+            print("didselectRowAtIndexPath selected rows:\(sr)")
             
         }
     }
