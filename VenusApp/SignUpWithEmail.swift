@@ -45,7 +45,7 @@ class SignUpWithEmail: UIViewController {
     
     @IBAction func cancel(_ sender: UIButton) {
         
-        self.navigationController?.dismiss(animated: true, completion: nil)
+        
     }
     
     override func viewDidLoad() {

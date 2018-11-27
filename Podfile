@@ -18,5 +18,6 @@ pod 'FBSDKCoreKit'
 pod 'Fabric'
 pod 'Crashlytics'
 pod 'TwitterKit'
+pod 'RealmSwift'
 
 end
