@@ -32,11 +32,16 @@ class nominateScreen1: UIViewController,CNContactPickerDelegate {
     
     func contactPicker(picker: CNContactPickerViewController, didSelectContact contact: CNContact) {
         NotificationCenter.default.post(name: NSNotification.Name(rawValue: "addNewContact"), object: nil)
+
+
     }
     
     
     
     @IBAction func nextButton(_ sender: UIButton) {
+   let vc = storyboard?.instantiateViewController(withIdentifier: "nominateScreen2") as! nominateScreen2
+        self.navigationController?.pushViewController(vc, animated: true)
+    
     }
     
     

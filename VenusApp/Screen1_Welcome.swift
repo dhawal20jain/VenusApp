@@ -28,7 +28,7 @@ class Screen1_Welcome: UIViewController {
     @IBAction func nominateSomeone(_ sender: UIButton) {
         
         
-        let vc = storyboard?.instantiateViewController(withIdentifier: "nominateScreen2") as! nominateScreen2
+        let vc = storyboard?.instantiateViewController(withIdentifier: "nominate") as! nominate
         
         navigationController?.pushViewController(vc, animated: true)
         

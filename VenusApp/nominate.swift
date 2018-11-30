@@ -13,9 +13,9 @@ class nominate: UIViewController,CNContactPickerDelegate{
 
    
     @IBAction func nn(_ sender: UIButton) {
-        
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "nominateScreen1") as! nominateScreen1
     
-        
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
    
