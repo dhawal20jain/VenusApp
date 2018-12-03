@@ -114,7 +114,7 @@ class nominateScreen2: UIViewController,UIPickerViewDelegate, UIPickerViewDataSo
 
     
     @objc func doneClick() {
-       // regionname.isFirstResponder
+
     }
     @objc func cancelClick() {
 //regionname.isFirstResponder
@@ -131,8 +131,7 @@ class nominateScreen2: UIViewController,UIPickerViewDelegate, UIPickerViewDataSo
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        pickUp()
-        navigationController?.isToolbarHidden = false
+regionname.isHidden = true
     
         // Do any additional setup after loading the view.
     }

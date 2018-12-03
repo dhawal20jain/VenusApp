@@ -498,32 +498,32 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Great now you have joined My Venus,  let's carry on with your application" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TlP-BN-3FY">
-                                <rect key="frame" x="87" y="52" width="214" height="57.5"/>
+                                <rect key="frame" x="87" y="52" width="214" height="58"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="214" id="bom-KU-YoC"/>
+                                    <constraint firstAttribute="height" constant="57.5" id="bR3-kb-e8E"/>
+                                    <constraint firstAttribute="width" constant="214" id="xju-lV-bcS"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Complete your application in 3 easy ways" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="buo-E9-tuz">
-                                <rect key="frame" x="103" y="330" width="182" height="33.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Complete your application in 3 easy ways" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="buo-E9-tuz">
+                                <rect key="frame" x="103" y="330" width="182" height="34"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="182" id="0ZK-db-6rm"/>
+                                    <constraint firstAttribute="height" constant="34" id="AKf-GU-iN0"/>
+                                    <constraint firstAttribute="width" constant="182" id="Vlt-ft-mgy"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="8rq-Mt-hIi">
-                                <rect key="frame" x="171" y="534" width="38" height="30"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="8rq-Mt-hIi">
+                                <rect key="frame" x="171" y="534" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BYv-gC-AcX" customClass="RoundedButton" customModule="VenusApp" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="38" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="34" height="30"/>
                                         <color key="backgroundColor" red="0.3559046984" green="0.16368830200000001" blue="0.47667086120000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="38" id="1z6-6S-JfI"/>
-                                        </constraints>
                                         <state key="normal" title="Start">
                                             <color key="titleColor" red="0.99991267920000004" green="1" blue="0.99988144639999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -533,16 +533,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="8rq-Mt-hIi" firstAttribute="top" secondItem="buo-E9-tuz" secondAttribute="bottom" constant="170.5" id="5hF-ia-fKf"/>
-                            <constraint firstItem="TuD-om-Xc0" firstAttribute="trailing" secondItem="buo-E9-tuz" secondAttribute="trailing" constant="90" id="SfZ-PQ-H95"/>
-                            <constraint firstItem="buo-E9-tuz" firstAttribute="leading" secondItem="TuD-om-Xc0" secondAttribute="leading" constant="103" id="Z9I-ca-6Lx"/>
-                            <constraint firstItem="BYv-gC-AcX" firstAttribute="top" secondItem="buo-E9-tuz" secondAttribute="bottom" constant="170.5" id="ZF5-rZ-3cd"/>
-                            <constraint firstItem="TuD-om-Xc0" firstAttribute="trailing" secondItem="TlP-BN-3FY" secondAttribute="trailing" constant="74" id="hQk-Tf-ATu"/>
-                            <constraint firstItem="8rq-Mt-hIi" firstAttribute="top" secondItem="buo-E9-tuz" secondAttribute="bottom" constant="170.5" id="lsF-5x-9Cd"/>
-                            <constraint firstItem="TlP-BN-3FY" firstAttribute="centerX" secondItem="EEr-ea-Pxc" secondAttribute="centerX" id="pEL-0H-138"/>
-                            <constraint firstItem="buo-E9-tuz" firstAttribute="top" secondItem="TlP-BN-3FY" secondAttribute="bottom" constant="176.5" id="q5K-6e-tgW"/>
-                            <constraint firstItem="TlP-BN-3FY" firstAttribute="leading" secondItem="TuD-om-Xc0" secondAttribute="leading" constant="87" id="t5L-iD-L92"/>
-                            <constraint firstItem="TlP-BN-3FY" firstAttribute="top" secondItem="TuD-om-Xc0" secondAttribute="top" constant="32" id="xkL-PS-bMR"/>
+                            <constraint firstItem="TuD-om-Xc0" firstAttribute="trailing" secondItem="TlP-BN-3FY" secondAttribute="trailing" constant="74" id="9F2-2p-gCX"/>
+                            <constraint firstItem="buo-E9-tuz" firstAttribute="top" secondItem="TlP-BN-3FY" secondAttribute="bottom" constant="220.5" id="Dpp-R6-uPW"/>
+                            <constraint firstItem="TlP-BN-3FY" firstAttribute="leading" secondItem="TuD-om-Xc0" secondAttribute="leading" constant="87" id="Etb-fU-yWu"/>
+                            <constraint firstItem="TlP-BN-3FY" firstAttribute="top" secondItem="TuD-om-Xc0" secondAttribute="top" constant="32" id="KcD-iP-TKW"/>
+                            <constraint firstItem="buo-E9-tuz" firstAttribute="leading" secondItem="TuD-om-Xc0" secondAttribute="leading" constant="103" id="Zc4-WW-d5N"/>
+                            <constraint firstItem="TuD-om-Xc0" firstAttribute="trailing" secondItem="buo-E9-tuz" secondAttribute="trailing" constant="90" id="pbx-D4-J7U"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="TuD-om-Xc0"/>
                     </view>
@@ -843,11 +839,10 @@
                                     <color key="titleShadowColor" red="0.99991267920000004" green="1" blue="0.99988144639999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Just a bit more about you" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a3j-oh-faQ">
-                                <rect key="frame" x="92" y="122" width="192" height="20"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Just a bit more about you" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a3j-oh-faQ">
+                                <rect key="frame" x="92" y="75" width="192" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="B6d-z3-S9J"/>
-                                    <constraint firstAttribute="width" constant="192" id="ac0-sR-MXk"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
                                 <nil key="textColor"/>
@@ -888,7 +883,6 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f6d-l8-V1N" customClass="RoundedButton" customModule="VenusApp" customModuleProvider="target">
                                 <rect key="frame" x="104" y="202" width="163" height="38"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="163" id="LP9-TM-Vud"/>
                                     <constraint firstAttribute="height" constant="38" id="oe0-xo-YS2"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
@@ -899,7 +893,6 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dNj-63-tOm" customClass="RoundedButton" customModule="VenusApp" customModuleProvider="target">
                                 <rect key="frame" x="104" y="316" width="163" height="36"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="163" id="9dt-nG-tuo"/>
                                     <constraint firstAttribute="height" constant="36" id="Dt3-pR-3Mr"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
@@ -910,7 +903,6 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number of employees in company?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OZe-o7-xfN">
                                 <rect key="frame" x="52" y="393" width="280" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="280" id="ksv-f3-kHo"/>
                                     <constraint firstAttribute="height" constant="21" id="wfE-Ed-Ndf"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
@@ -931,7 +923,6 @@
                                 <rect key="frame" x="287" y="497" width="30" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="IMD-Pq-zQ6"/>
-                                    <constraint firstAttribute="width" constant="30" id="S6F-24-HuJ"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="30" id="Y61-yZ-qLY"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="vMc-KZ-Gmv"/>
                                 </constraints>
@@ -953,30 +944,27 @@
                                 <rect key="frame" x="52" y="430" width="280" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="5pq-qn-VjL"/>
-                                    <constraint firstAttribute="width" constant="280" id="C8n-HY-p7E"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sWp-Ft-fLn" customClass="RoundedButton" customModule="VenusApp" customModuleProvider="target">
-                                <rect key="frame" x="66" y="556" width="106" height="39"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sWp-Ft-fLn" customClass="RoundedButton" customModule="VenusApp" customModuleProvider="target">
+                                <rect key="frame" x="66" y="556" width="85" height="38"/>
                                 <color key="backgroundColor" red="0.3559046984" green="0.16368830200000001" blue="0.47667086120000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="39" id="GYX-zx-ZRf"/>
-                                    <constraint firstAttribute="width" constant="106" id="Mnr-Ej-VnN"/>
+                                    <constraint firstAttribute="height" constant="38" id="GYX-zx-ZRf"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                 <state key="normal" title="Previous">
                                     <color key="titleColor" red="0.99991267920000004" green="1" blue="0.99988144639999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OhX-ET-35J" customClass="RoundedButton" customModule="VenusApp" customModuleProvider="target">
-                                <rect key="frame" x="206" y="556" width="111" height="39"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OhX-ET-35J" customClass="RoundedButton" customModule="VenusApp" customModuleProvider="target">
+                                <rect key="frame" x="259" y="556" width="58" height="36"/>
                                 <color key="backgroundColor" red="0.3559046984" green="0.16368830200000001" blue="0.47667086120000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="111" id="5hH-zW-ghd"/>
-                                    <constraint firstAttribute="height" constant="39" id="IPT-Lu-UjB"/>
+                                    <constraint firstAttribute="height" constant="36" id="IPT-Lu-UjB"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                 <state key="normal" title="Next">
@@ -987,12 +975,15 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="zy9-Gl-4fF" firstAttribute="leading" secondItem="0Av-wU-xYN" secondAttribute="leading" constant="60" id="0M3-3j-2sG"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="hAX-PA-UFS" secondAttribute="trailing" constant="20" symbolic="YES" id="1by-PB-xkA"/>
                             <constraint firstItem="f6d-l8-V1N" firstAttribute="leading" secondItem="0Av-wU-xYN" secondAttribute="leading" constant="104" id="2l9-RK-5lw"/>
                             <constraint firstItem="pDM-Ul-idZ" firstAttribute="leading" secondItem="BMJ-WK-BAI" secondAttribute="leadingMargin" constant="50" id="34Y-06-5Go"/>
+                            <constraint firstItem="tMZ-J4-kkJ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="BMJ-WK-BAI" secondAttribute="leading" constant="20" symbolic="YES" id="4D0-i5-E1B"/>
                             <constraint firstItem="OZe-o7-xfN" firstAttribute="leading" secondItem="0Av-wU-xYN" secondAttribute="leading" constant="52" id="5hJ-Gt-e2Y"/>
                             <constraint firstItem="dNj-63-tOm" firstAttribute="top" secondItem="f6d-l8-V1N" secondAttribute="bottom" constant="76" id="6Py-we-Efj"/>
                             <constraint firstItem="dNj-63-tOm" firstAttribute="trailing" secondItem="f6d-l8-V1N" secondAttribute="trailing" id="6aP-GP-h8d"/>
                             <constraint firstItem="dNj-63-tOm" firstAttribute="leading" secondItem="0Av-wU-xYN" secondAttribute="leading" constant="104" id="B6g-i6-1rX"/>
+                            <constraint firstItem="OhX-ET-35J" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="BMJ-WK-BAI" secondAttribute="leading" constant="20" symbolic="YES" id="Bqe-4A-rlx"/>
                             <constraint firstItem="0Av-wU-xYN" firstAttribute="trailing" secondItem="Ufu-MS-7Co" secondAttribute="trailing" constant="43" id="CIC-Va-UDp"/>
                             <constraint firstItem="0Av-wU-xYN" firstAttribute="trailing" secondItem="f6d-l8-V1N" secondAttribute="trailing" constant="108" id="DZ8-ey-aYW"/>
                             <constraint firstItem="dNj-63-tOm" firstAttribute="leading" secondItem="f6d-l8-V1N" secondAttribute="leading" id="Lsp-ar-WNJ"/>
@@ -1000,6 +991,7 @@
                             <constraint firstItem="pDM-Ul-idZ" firstAttribute="top" secondItem="OZe-o7-xfN" secondAttribute="bottom" constant="44" id="NDe-a8-pVB"/>
                             <constraint firstItem="OZe-o7-xfN" firstAttribute="top" secondItem="dNj-63-tOm" secondAttribute="bottom" constant="41" id="Vdc-HX-bP1"/>
                             <constraint firstItem="OhX-ET-35J" firstAttribute="trailing" secondItem="tMZ-J4-kkJ" secondAttribute="trailing" id="XSq-Fz-eKZ"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="sWp-Ft-fLn" secondAttribute="trailing" constant="20" symbolic="YES" id="ZiK-Lt-bA3"/>
                             <constraint firstItem="f6d-l8-V1N" firstAttribute="top" secondItem="zy9-Gl-4fF" secondAttribute="bottom" constant="78" id="adA-yG-8kQ"/>
                             <constraint firstItem="0Av-wU-xYN" firstAttribute="trailing" secondItem="OZe-o7-xfN" secondAttribute="trailing" constant="43" id="bfP-Es-6B5"/>
                             <constraint firstItem="zy9-Gl-4fF" firstAttribute="top" secondItem="0Av-wU-xYN" secondAttribute="top" constant="83" id="bkT-Af-IFH"/>
@@ -1592,7 +1584,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pick upto 5 award categories" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="24g-FL-rdy">
-                                <rect key="frame" x="30" y="444.5" width="315" height="46"/>
+                                <rect key="frame" x="30" y="470.5" width="315" height="46"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="46" id="YK6-p6-M4g"/>
                                 </constraints>
@@ -1628,8 +1620,8 @@
                                     <action selector="chooseNow:" destination="1DU-xX-wib" eventType="touchUpInside" id="8PP-Ti-i5d"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="g19-92-8p0">
-                                <rect key="frame" x="30" y="264" width="329" height="19.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="g19-92-8p0">
+                                <rect key="frame" x="30" y="264" width="329" height="0.0"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="329" id="bvJ-Ws-CYn"/>
                                 </constraints>
@@ -1641,7 +1633,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="24g-FL-rdy" firstAttribute="leading" secondItem="b8M-kw-iY0" secondAttribute="leading" constant="30" id="1Y2-dP-hDh"/>
-                            <constraint firstItem="T0M-Dj-DyI" firstAttribute="top" secondItem="24g-FL-rdy" secondAttribute="bottom" constant="48.5" id="7mh-Cl-aZr"/>
+                            <constraint firstItem="T0M-Dj-DyI" firstAttribute="top" secondItem="24g-FL-rdy" secondAttribute="bottom" constant="22.5" id="7mh-Cl-aZr"/>
                             <constraint firstItem="b8M-kw-iY0" firstAttribute="trailing" secondItem="24g-FL-rdy" secondAttribute="trailing" constant="30" id="9XN-a9-VGv"/>
                             <constraint firstItem="b8M-kw-iY0" firstAttribute="trailing" secondItem="T0M-Dj-DyI" secondAttribute="trailing" constant="30" id="J8u-Lt-mas"/>
                             <constraint firstItem="e3E-NU-vdT" firstAttribute="top" secondItem="oWU-34-Ghy" secondAttribute="bottom" constant="20" id="KeK-Js-yL9"/>
@@ -2084,8 +2076,9 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JxR-iZ-mhp" customClass="RoundedButton" customModule="VenusApp" customModuleProvider="target">
                                 <rect key="frame" x="30" y="287" width="315" height="30"/>
+                                <color key="backgroundColor" red="0.3559046984" green="0.16368830200000001" blue="0.47667086120000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Login With Google">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" red="0.99991267920000004" green="1" blue="0.99988144639999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="googleLogin:" destination="ghL-D6-9jc" eventType="touchUpInside" id="jIE-jn-K6J"/>
@@ -2093,8 +2086,9 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d3r-pc-8xB" customClass="RoundedButton" customModule="VenusApp" customModuleProvider="target">
                                 <rect key="frame" x="30" y="330" width="315" height="30"/>
+                                <color key="backgroundColor" red="0.3559046984" green="0.16368830200000001" blue="0.47667086120000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Login With Facebook">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" red="0.99991267920000004" green="1" blue="0.99988144639999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="facebookLogin:" destination="ghL-D6-9jc" eventType="touchUpInside" id="sjj-wB-TC6"/>
@@ -2102,14 +2096,16 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xuq-JZ-syw" customClass="RoundedButton" customModule="VenusApp" customModuleProvider="target">
                                 <rect key="frame" x="30" y="373" width="315" height="30"/>
+                                <color key="backgroundColor" red="0.3559046984" green="0.16368830200000001" blue="0.47667086120000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Login With Twitter">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" red="0.99991267920000004" green="1" blue="0.99988144639999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p5m-zh-Ij1" customClass="RoundedButton" customModule="VenusApp" customModuleProvider="target">
                                 <rect key="frame" x="30" y="416" width="315" height="30"/>
+                                <color key="backgroundColor" red="0.3559046984" green="0.16368830200000001" blue="0.47667086120000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Login With Email">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" red="0.99991267920000004" green="1" blue="0.99988144639999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="WU4-p8-aaw" kind="show" id="spx-xw-78X"/>

@@ -27,14 +27,30 @@ class loginWithEmail: UIViewController {
                 
                 
                if let d = data{
-                    print("Succresful")
+                    print("Successful")
+                let alert = UIAlertController(title: "Successful", message: "Login Successful", preferredStyle: .alert)
+                alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { (action) in
+                    
+                    let vc = self.storyboard?.instantiateViewController(withIdentifier: "nominate") as! nominate
+                    
+                    self.navigationController?.pushViewController(vc, animated: true)
+                
+                }))
+                    self.present(alert, animated: true, completion: nil)
+
                 self.username.text = ""
                 self.password.text = ""
+                
                 }
                 else {
                 
                     print("Unsuccessful")
+                let alert = UIAlertController(title: "\(error?.localizedDescription ?? "")", message: "Login UnSuccessful", preferredStyle: .alert)
+                alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { (action) in
                     
+                }))
+                self.present(alert, animated: true, completion: nil)
+                
                 }
             }
         }

@@ -41,16 +41,13 @@ class nominateScreen1: UIViewController,CNContactPickerDelegate {
     @IBAction func nextButton(_ sender: UIButton) {
    let vc = storyboard?.instantiateViewController(withIdentifier: "nominateScreen2") as! nominateScreen2
         self.navigationController?.pushViewController(vc, animated: true)
-    
     }
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-nextButton.isEnabled = false
-        // Do any additional setup after loading the view.
+                // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
