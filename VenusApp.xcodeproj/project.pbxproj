@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3114B44721B675F600658F21 /* user_details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3114B44621B675F600658F21 /* user_details.swift */; };
 		3129259421A522D500B2ED7A /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3129259321A522D500B2ED7A /* RoundedButton.swift */; };
 		3129259621A53F7B00B2ED7A /* categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3129259521A53F7B00B2ED7A /* categories.swift */; };
 		315A7F6F21A7E0F000ED79A9 /* submittedForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315A7F6E21A7E0F000ED79A9 /* submittedForm.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3114B44621B675F600658F21 /* user_details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user_details.swift; sourceTree = "<group>"; };
 		3129259321A522D500B2ED7A /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		3129259521A53F7B00B2ED7A /* categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categories.swift; sourceTree = "<group>"; };
 		315A7F6E21A7E0F000ED79A9 /* submittedForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = submittedForm.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				315A7F6E21A7E0F000ED79A9 /* submittedForm.swift */,
 				3190B55B21AE6CCF0094D84D /* questionScreen.swift */,
 				3190B55D21AE9DBE0094D84D /* choosepic.swift */,
+				3114B44621B675F600658F21 /* user_details.swift */,
 			);
 			path = VenusApp;
 			sourceTree = "<group>";
@@ -354,6 +357,7 @@
 				3129259421A522D500B2ED7A /* RoundedButton.swift in Sources */,
 				3129259621A53F7B00B2ED7A /* categories.swift in Sources */,
 				3190B55C21AE6CCF0094D84D /* questionScreen.swift in Sources */,
+				3114B44721B675F600658F21 /* user_details.swift in Sources */,
 				31E8B16C21A3E6C3004EAA6F /* nominate.swift in Sources */,
 				31CFED3621A03A8400CBFD15 /* AppDelegate.swift in Sources */,
 			);

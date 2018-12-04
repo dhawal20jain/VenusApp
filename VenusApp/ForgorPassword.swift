@@ -33,13 +33,35 @@ class ForgorPassword: UIViewController {
                     UIAlertAction in
            print("Ok pressed")
                 }
-             alertController.addAction(okAction)
+                alertController.addAction(okAction)
+                self.present(alertController, animated: true, completion: nil)
+
+            }
+                else {
                 
+                let alertController = UIAlertController(title: "Some error", message: "\(err.localizedDescription)", preferredStyle: .alert)
+                
+                
+                let okAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.default) {
+                    UIAlertAction in
+                    print("Ok pressed")
+                }
+                alertController.addAction(okAction)
+
                 self.present(alertController, animated: true, completion: nil)
             }
             
             
+            
             print("Success")
+            let alertController = UIAlertController(title: "Email Sent", message: "\(err.localizedDescription)", preferredStyle: .alert)
+            
+            
+            let okAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.default) {
+                UIAlertAction in
+                print("Ok pressed")
+            }
+            alertController.addAction(okAction)
 
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "emailSent")
             

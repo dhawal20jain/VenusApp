@@ -8,9 +8,12 @@
 
 import UIKit
 import ContactsUI
+import CoreData
 import Contacts
 class nominateScreen1: UIViewController,CNContactPickerDelegate {
 
+    var savedata = [User_info]()
+    
     
     @IBOutlet weak var nextButton: UIButton!
     @IBOutlet weak var firstName: UITextField!
@@ -41,6 +44,16 @@ class nominateScreen1: UIViewController,CNContactPickerDelegate {
     @IBAction func nextButton(_ sender: UIButton) {
    let vc = storyboard?.instantiateViewController(withIdentifier: "nominateScreen2") as! nominateScreen2
         self.navigationController?.pushViewController(vc, animated: true)
+        guard let fname = firstName.text , let lname = lastName.text, let email = emailID.text else {return}
+        
+        
+        let appDe = UIApplication.shared.delegate as! AppDelegate
+        
+        let item = User_info(context: appDe.persistentContainer.viewContext)
+        item.name = fname
+        item.last_name = lname
+        item.email = email
+        
     }
     
     

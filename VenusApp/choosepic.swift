@@ -36,6 +36,8 @@ class choosepic: UIViewController,UINavigationControllerDelegate,UIImagePickerCo
     @IBAction func getFromCamera(_ sender: UIButton) {
    image.sourceType = .camera
         image.allowsEditing = true
+        image.cameraCaptureMode = .photo
+        image.cameraDevice = .front
         image.mediaTypes = UIImagePickerController.availableMediaTypes(for: .camera)!
     present(image, animated: true, completion: nil)
     }

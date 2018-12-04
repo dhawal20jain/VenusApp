@@ -42,7 +42,7 @@ class signin: UIViewController,GIDSignInDelegate,GIDSignInUIDelegate,FBSDKLoginB
     
     func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error?) {
         // ...
-        if let error = error {
+        if error != nil {
             // ...
             return
         }
