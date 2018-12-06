@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Toast_Swift
 
 protocol getcategories {
     func categories(data : [String])
@@ -15,6 +16,10 @@ protocol getcategories {
 
 class categories: UIViewController,UITableViewDelegate
 ,UITableViewDataSource{
+    
+    
+    
+    var style = ToastStyle()
     
     
     var delegate: getcategories!
@@ -39,11 +44,16 @@ class categories: UIViewController,UITableViewDelegate
         
         if let sr = tableView.indexPathsForSelectedRows {
             if sr.count == 5 {
-                let alertController = UIAlertController(title: "Oops", message:
-                    "You are limited to 5 selections", preferredStyle: .alert)
-                alertController.addAction(UIAlertAction(title: "OK", style: .default, handler: {action in
-                }))
-                self.present(alertController, animated: true, completion: nil)
+//                let alertController = UIAlertController(title: "Oops", message:
+//                    "You are limited to 5 selections", preferredStyle: .alert)
+//                alertController.addAction(UIAlertAction(title: "OK", style: .default, handler: {action in
+//                }))
+//                self.present(alertController, animated: true, completion: nil)
+                
+                style.messageColor = .red
+                style.backgroundColor = .white
+                self.view.makeToast("You are limited to 5 selections", duration: 3.0, position: .top, style: style)
+
                 
                 return nil
             }

@@ -61,8 +61,7 @@ class loginWithEmail: UIViewController {
         
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "SignUpWithEmail") as! SignUpWithEmail
         
-        self.navigationController?.pushViewController(vc, animated: true)
-        
+self.present(vc, animated: true, completion: nil)
     }
     
     

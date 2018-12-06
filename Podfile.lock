@@ -96,6 +96,7 @@ PODS:
   - Realm/Headers (3.7.6)
   - RealmSwift (3.7.6):
     - Realm (= 3.7.6)
+  - Toast-Swift (3.0.1)
   - TwitterCore (3.2.0)
   - TwitterKit (3.4.0):
     - TwitterCore (>= 3.1.0)
@@ -111,6 +112,7 @@ DEPENDENCIES:
   - Firebase/Core
   - GoogleSignIn
   - RealmSwift
+  - Toast-Swift
   - TwitterKit
 
 SPEC REPOS:
@@ -136,6 +138,7 @@ SPEC REPOS:
     - nanopb
     - Realm
     - RealmSwift
+    - Toast-Swift
     - TwitterCore
     - TwitterKit
 
@@ -161,9 +164,10 @@ SPEC CHECKSUMS:
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
   Realm: 9eaecad54712d6246d08ba34c10f354e4715d7d3
   RealmSwift: 1fe08b4ebaeeaacf17f9ba0343f7b25c9fc31fa6
+  Toast-Swift: ba0b01b095aada709d915f9beb1d38184a2721c3
   TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
   TwitterKit: bc7bd086b9b724a1d888745a054e1d0b1ecc4f3f
 
-PODFILE CHECKSUM: 72cfe02f485d3612ac5e35e40daba70693baf41e
+PODFILE CHECKSUM: f6e3dad7e0328154628312b3a86efe9ef9d744bd
 
 COCOAPODS: 1.5.3

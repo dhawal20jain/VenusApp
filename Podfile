@@ -19,5 +19,5 @@ pod 'Fabric'
 pod 'Crashlytics'
 pod 'TwitterKit'
 pod 'RealmSwift'
-
+pod 'Toast-Swift'
 end

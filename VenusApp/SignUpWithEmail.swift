@@ -25,11 +25,8 @@ class SignUpWithEmail: UIViewController {
                 if let r = result{
                     print("Successful")
                     
-                    let vc = self.storyboard?.instantiateViewController(withIdentifier: "loginWithEmail") as! loginWithEmail
-                    self.navigationController?.pushViewController(vc, animated: true)
-                    
-                    
                 }
+                
                 else
                 {
                     print("Unsuccessful")
@@ -44,8 +41,8 @@ class SignUpWithEmail: UIViewController {
     
     
     @IBAction func cancel(_ sender: UIButton) {
-        
-        
+        self.dismiss(animated: true, completion: nil)
+    
     }
     
     override func viewDidLoad() {
