@@ -9,7 +9,7 @@
 import UIKit
 import Firebase
 import FirebaseAuth
-class loginWithEmail: UIViewController {
+class loginWithEmail: UIViewController ,UITextFieldDelegate{
 
     @IBOutlet weak var username: UITextField!
     
@@ -45,11 +45,13 @@ class loginWithEmail: UIViewController {
                 else {
                 
                     print("Unsuccessful")
-                let alert = UIAlertController(title: "\(error?.localizedDescription ?? "")", message: "Login UnSuccessful", preferredStyle: .alert)
-                alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { (action) in
-                    
-                }))
-                self.present(alert, animated: true, completion: nil)
+                self.forgotEmaillabel.isHidden = false
+                self.forgortPasswordLabel.isHidden = false
+//                let alert = UIAlertController(title: "\(error?.localizedDescription ?? "")", message: "Login UnSuccessful", preferredStyle: .alert)
+//                alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { (action) in
+//
+//                }))
+//                self.present(alert, animated: true, completion: nil)
                 
                 }
             }
@@ -87,5 +89,17 @@ self.present(vc, animated: true, completion: nil)
         
     }
     
-
+    @IBAction func editingChangedd(_ sender: UITextField) {
+        forgotEmaillabel.isHidden = true
+        forgortPasswordLabel.isHidden = true
+    
+    }
+    
+    @IBAction func passtf(_ sender: UITextField) {
+        forgotEmaillabel.isHidden = true
+        forgortPasswordLabel.isHidden = true
+    
+    }
+    
+    
 }

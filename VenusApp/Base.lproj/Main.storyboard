@@ -34,10 +34,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DWM-vS-XP7" customClass="RoundedButton" customModule="VenusApp" customModuleProvider="target">
-                                <rect key="frame" x="38" y="370" width="299" height="32"/>
+                                <rect key="frame" x="38" y="370" width="299" height="40"/>
                                 <color key="backgroundColor" red="0.34180110692977905" green="0.15622240304946899" blue="0.45729362964630127" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="DWM-vS-XP7" secondAttribute="height" multiplier="149:16" id="jpv-q5-fve"/>
+                                    <constraint firstAttribute="width" secondItem="DWM-vS-XP7" secondAttribute="height" multiplier="149:16" constant="-73.5" id="jpv-q5-fve"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="19"/>
                                 <state key="normal" title="Nominate Someone">
@@ -48,7 +48,7 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="-8" translatesAutoresizingMaskIntoConstraints="NO" id="0Ru-e6-dhI">
-                                <rect key="frame" x="48" y="483" width="299" height="30"/>
+                                <rect key="frame" x="48" y="479" width="299" height="30"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Already a Venus applicant ?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JRs-GA-Iv1">
                                         <rect key="frame" x="0.0" y="0.0" width="225" height="30"/>
@@ -70,10 +70,10 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WZe-KN-BCP" customClass="RoundedButton" customModule="VenusApp" customModuleProvider="target">
-                                <rect key="frame" x="38" y="436" width="299" height="35"/>
+                                <rect key="frame" x="38" y="432" width="299" height="39"/>
                                 <color key="backgroundColor" red="0.34180110689999998" green="0.15622240300000001" blue="0.45729362959999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="WZe-KN-BCP" secondAttribute="height" multiplier="298:35" id="UII-CI-Jqu"/>
+                                    <constraint firstAttribute="width" secondItem="WZe-KN-BCP" secondAttribute="height" multiplier="298:35" constant="-33.057142857142878" id="UII-CI-Jqu"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="19"/>
                                 <state key="normal" title="Apply for an Award">
@@ -84,12 +84,12 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="0Ru-e6-dhI" firstAttribute="leading" secondItem="WZe-KN-BCP" secondAttribute="leading" constant="10" id="JVl-9h-QEI"/>
-                            <constraint firstItem="WZe-KN-BCP" firstAttribute="top" secondItem="DWM-vS-XP7" secondAttribute="bottom" constant="34" id="NL4-rE-MLp"/>
+                            <constraint firstItem="WZe-KN-BCP" firstAttribute="top" secondItem="DWM-vS-XP7" secondAttribute="bottom" constant="22" id="NL4-rE-MLp"/>
                             <constraint firstItem="0Ru-e6-dhI" firstAttribute="trailing" secondItem="WZe-KN-BCP" secondAttribute="trailing" constant="10" id="Pbj-Si-VHm"/>
                             <constraint firstItem="HLT-xp-19f" firstAttribute="trailing" secondItem="DWM-vS-XP7" secondAttribute="trailing" constant="38" id="Pc3-oc-zSk"/>
                             <constraint firstItem="DWM-vS-XP7" firstAttribute="leading" secondItem="HLT-xp-19f" secondAttribute="leading" constant="38" id="QWN-Is-eT1"/>
                             <constraint firstItem="lK8-ah-fZJ" firstAttribute="centerX" secondItem="btd-oO-lNs" secondAttribute="centerX" id="QgU-Jr-XcD"/>
-                            <constraint firstItem="0Ru-e6-dhI" firstAttribute="top" secondItem="WZe-KN-BCP" secondAttribute="bottom" constant="12" id="aKv-ja-VsX"/>
+                            <constraint firstItem="0Ru-e6-dhI" firstAttribute="top" secondItem="WZe-KN-BCP" secondAttribute="bottom" constant="8" id="aKv-ja-VsX"/>
                             <constraint firstItem="lK8-ah-fZJ" firstAttribute="centerY" secondItem="btd-oO-lNs" secondAttribute="centerY" multiplier="0.8" id="bXA-Vy-LXI"/>
                             <constraint firstItem="WZe-KN-BCP" firstAttribute="leading" secondItem="DWM-vS-XP7" secondAttribute="leading" id="ckJ-tU-aPC"/>
                             <constraint firstItem="DWM-vS-XP7" firstAttribute="top" secondItem="PBh-6Y-8Qc" secondAttribute="bottom" constant="38" id="d8v-pY-E9f"/>
@@ -108,7 +108,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FLf-3W-vsu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1882" y="-102"/>
+            <point key="canvasLocation" x="1880.8" y="-102.09895052473765"/>
         </scene>
         <!--Forgot Password-->
         <scene sceneID="jrs-cN-ujD">
@@ -2165,6 +2165,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
+                                <connections>
+                                    <action selector="passtf:" destination="WU4-p8-aaw" eventType="editingChanged" id="TAc-rw-Ek7"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qVS-9l-U9k" customClass="RoundedButton" customModule="VenusApp" customModuleProvider="target">
                                 <rect key="frame" x="37" y="456" width="314.5" height="33"/>
@@ -2230,6 +2233,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="editingChangedd:" destination="WU4-p8-aaw" eventType="editingChanged" id="ksK-TL-fyJ"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yv2-4C-5cS" customClass="RoundedButton" customModule="VenusApp" customModuleProvider="target">
                                 <rect key="frame" x="37" y="511" width="314.5" height="33"/>

@@ -15,6 +15,7 @@ class RoundedButton: UIButton {
         self.clipsToBounds = true
         self.layer.backgroundColor = #colorLiteral(red: 0.3559046984, green: 0.163688302, blue: 0.4766708612, alpha: 1)
         self.titleLabel?.textColor = UIColor.white
+        self.frame.size = CGSize(width: 150, height: 100)
     }
 
     
